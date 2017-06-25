@@ -173,6 +173,13 @@ int main()
 		cout << "Season: " << season << endl;
 		cout << "Episode: " << ep << endl;
 		break;}
+	case 28:
+	{
+		int ep = 1 + rand() % 21;
+		cout << "Season: " << season << endl;
+		cout << "Episode: " << ep << endl;
+		break;}
+
 	default:
 		cout << "Wrong number!" << endl;
 		break;
